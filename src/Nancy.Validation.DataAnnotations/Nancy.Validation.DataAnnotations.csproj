@@ -2,10 +2,10 @@
   <PropertyGroup>
     <Description>Adds Data Annotation validation support to Nancy.</Description>
     <PackageTags>$(PackageTags);Validation;DataAnnotations</PackageTags>
-    <TargetFramework>net452</TargetFramework>
+    <TargetFrameworks>net452;netstandard2.1</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
   </ItemGroup>
 </Project>
